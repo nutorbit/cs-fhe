@@ -11,13 +11,13 @@ def multivariate_noise_reset(x):
 
 @fhe.module()
 class CreditScoreAveraging:
-    @fhe.function({"x": "encrypted"})
-    def bank(x):
-        return univariate_noise_reset(x)
+    # @fhe.function({"x": "encrypted"})
+    # def bank(x):
+    #     return univariate_noise_reset(x)
     
-    @fhe.function({"x": "encrypted"})
-    def telco(x):
-        return univariate_noise_reset(x)
+    # @fhe.function({"x": "encrypted"})
+    # def telco(x):
+    #     return univariate_noise_reset(x)
     
     @fhe.function({"x": "encrypted", "y": "encrypted"})
     def add(x, y):

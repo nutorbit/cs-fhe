@@ -4,5 +4,7 @@
 __pycache__/
 .keys/
 .venv/
+.artifacts/
+target/
 
 .DS_Store

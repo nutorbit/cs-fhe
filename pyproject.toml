@@ -6,9 +6,9 @@ authors = ["nutorbit <nutorbitx@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.12"
+python = ">=3.8.1,<3.11"
 concrete-python = "^2.8.1"
-torch = "2.4.1"
+torch = "^2.2.2"
 
 [build-system]
 requires = ["poetry-core"]
